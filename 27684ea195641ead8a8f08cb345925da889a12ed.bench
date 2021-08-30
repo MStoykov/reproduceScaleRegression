@@ -1,0 +1,36 @@
+goos: linux
+goarch: amd64
+pkg: regression
+cpu: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx  
+BenchmarkExecutionSegmentScale/5523-8   	187416886	         6.258 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	179587396	         6.371 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	191131705	         6.255 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	201746194	         6.380 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	197836641	         6.043 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	167612946	         6.073 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	186042284	         5.977 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	208161020	         5.991 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	184915407	         6.570 ns/op
+BenchmarkExecutionSegmentScale/5523-8   	173154264	         6.131 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	102390444	        11.21 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	102769605	        12.17 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	109983092	        11.41 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	100000000	        12.04 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	101241492	        11.09 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	109172316	        11.64 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	109555414	        11.18 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	99994557	        10.96 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	103369243	        11.48 ns/op
+BenchmarkExecutionSegmentScale/67280421310721-8         	100000000	        11.27 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	418457414	         2.857 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	412790378	         2.974 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	390853119	         3.004 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	411856105	         2.863 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	396945817	         2.864 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	435800254	         3.020 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	420251539	         2.970 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	353499684	         2.902 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	359572647	         2.874 ns/op
+BenchmarkExecutionSegmentScaleEmpty/5523-8              	405347251	         3.088 ns/op
+PASS
+ok  	regression	50.405s
